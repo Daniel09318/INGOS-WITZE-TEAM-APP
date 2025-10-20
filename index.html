@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meine App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INGOS-WITZE-TEAM-APP</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./service-worker.js');
@@ -12,7 +15,13 @@
   </script>
 </head>
 <body>
-  <h1>👋 Willkommen in meiner App!</h1>
-  <p>Diese App funktioniert auch offline 📱✨</p>
+  <h1>👋 Willkommen im INGOS-WITZE-TEAM</h1>
+
+  <nav>
+    <a href="dienstplan.html">📅 Dienstplan</a>
+    <a href="news.html">📢 Neuigkeiten & Regeln</a>
+  </nav>
+
+  <p>Die App funktioniert auch offline ✅</p>
 </body>
 </html>
